@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="doll_home.css">
+    <link rel="stylesheet" href="doll_mobile.css">
+    <link rel="stylesheet" href="doll_tab.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height:100vh;
+            width:100%;
+            background-color: blue;
+        }
+        .content{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a class="bar"><i class="fa-solid fa-xmark"></i></svg></a></li>
+          <li> <a href="index.html">HOME</a></li>
+          <li> <a href="aboutus.html">ABOUT US</a></li>
+          <li> <a href="gallery.html">GALLERY</a></li>
+          <li> <a href="contact_us.html">CONTACT US</a></li>
+          <li><a href="information.html">INFORMATION</a></li>
+          <li><a class="call_now_button" href="tel:+918963010000">Call Now</a></li>
+        </ul>
+        <ul>
+          <img class="logo" src="doll_logo.jpeg">
+          <div style="display:flex;">
+          <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+          <li class="hideOnMobile"><a href="aboutus.html">ABOUT US</a></li>
+          <li class="hideOnMobile"><a href="gallery.html">GALLERY</a></li>
+          <li class="hideOnMobile"><a href="contact_us.html">CONTACT US</a></li>
+          <li class="hideOnMobile"><a href="information.html">INFORMATION</a></li>
+          <a  href="tel:+918963010000" style="color: aliceblue; text-decoration: none;" class="book_table"> Call Now</a>
+          </div>
+          <li class="menu-button"   style="margin-left: 5px;"    onclick=showSidebar()><a class="bar" href="#"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+      </nav>
+
+
+    <div class="content">
+    <h1>Information</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quam est voluptatem recusandae, aut quod consequuntur excepturi itaque, ex quae, dolores dolorem minima distinctio sint vel iste! Sint, soluta assumenda. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sint ratione quasi omnis animi consequatur odio tempore quo reiciendis tempora. Sunt tempore recusandae, nesciunt quasi nihil veritatis aut delectus quia.</p>
+    </div>
+    <div class="footerrr">
+
+        <div class="first_div_footer">
+               <div class="footer_logo"> <img src="doll_logo.jpeg"></div>
+               <div class="footer_content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat obcaecati quas incidunt perspiciatis minima saepe quod quam libero quae autem soluta temporibus cupiditate, accusantium quibusdam eum aliquam magni magnam exercitationem.</p></div>
+               <div class="footer_social_media">
+                            <a href="https://www.facebook.com/DOLLINTERNATIONALSCHOOL/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/doll_international_school/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@dollinternationalschool"><i class="fa-brands fa-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                               
+               </div>
+        </div>
+    
+        <div class="secound_div_footer">
+            <div class="Contact_nav_in_footer">
+                 <h1><b>Contact Us</b></h1>
+                 
+                 <h3><i class="fa-solid fa-phone-volume"></i><a href="tel:+918963010000">8963010000</a></h3>
+                 <h3><i class="fa-solid fa-phone-volume"></i> <a href="tel:+919983702000">9983702000</a></h3>
+                 <h3><i class="fa-solid fa-location-dot"></i>Amar Nagar Mata Ka Than ,Jodhpur (Raj) </h3>
+                 <h3><i class="fa-solid fa-location-dot"></i>dollinternational@gmail.com</h3>
+                 <h3></h3>
+                
+       
+            </div>
+          
+    
+    
+            
+          <div class="Contact_nav_in_footer usefull_link ">
+            <h1><b>Usefull link</b></h1>
+            <h3><a href="index.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Home</a></h3> 
+            <h3><a href="aboutus.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;about us</a></h3> 
+            <h3><a href="gallery.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;gallery</a></h3> 
+            <h3><a href="Contact_Us.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Contact Us</a></h3> 
+            <h3><a href="Information.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;information</a></h3> 
+        
+
+         </div>          
+        </div>
+    
+        <div class="three_div_footer">
+            <h1><b>Find Us on Google map</b></h1>
+            <div  class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.2698919476143!2d73.07834897487463!3d26.317758785406156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418d4469ae4c6f%3A0xe3178212b84365fc!2sDoll%20International%20School!5e0!3m2!1sen!2sin!4v1716895836759!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>   
+    
+      </div> 
+
+        <!-- navya lovejeet id-->
+        <div class="navya_and_lovejeet_linkedin">
+            <div class="linkedin"><img src="navya_link.jpg"></img> &nbsp; &nbsp;Designed by  &nbsp; &nbsp;<a href=""><u>Navya gehlot</u></a></div>
+            <div class="linkedin"><img src="lovejeet_l.jpg"></img> &nbsp; &nbsp;  Develop  by  &nbsp; &nbsp;<a href=""><u>Lovejeet gehlot</u> </a></div>
+        </div>
+        <script src="bricks.js"></script>
+</body>
+</html>
