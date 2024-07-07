@@ -1,2 +1,0 @@
-# Doll-project
-doll interntaional
