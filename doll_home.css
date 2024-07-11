@@ -467,12 +467,23 @@ nav li:first-child {
 /* teacher end */
 /* gallery */
 .container {
-  width: 1224px;
+  width: 100%;
   margin: auto;
   padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.photo_gallery_h1 {
+  height: 40%;
+  color: #032d6c;
+  width: 80%;
+}
+.photo_gallery_h1_h2 {
+  font-size: 40px;
+}
 .photo_gallery {
+  width: 80%;
   display: flex;
   gap: 20px;
   margin-top: 20px;
@@ -488,15 +499,6 @@ nav li:first-child {
   height: 100%;
   border-radius: 5px;
   object-fit: cover;
-}
-
-.photo_gallery_h1 {
-  height: 40%;
-  color: #032d6c;
-  width: 100%;
-}
-.photo_gallery_h1_h2 {
-  font-size: 40px;
 }
 
 /* gallery end */

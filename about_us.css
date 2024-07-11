@@ -272,7 +272,8 @@ h4 {
   }
 
   .vision_statement {
-    height: 800px;
+    margin-top: 50px;
+    height: 500px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -293,7 +294,7 @@ h4 {
   }
 
   .Strategic_Initiative {
-    height: 800px;
+    height: 600px;
     width: 100%;
   }
   .Strategic_Initiative h1 {
@@ -326,7 +327,7 @@ h4 {
   }
 
   .about_us_depti_sunil_sir {
-    height: 1400px;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;
