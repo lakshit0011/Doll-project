@@ -467,6 +467,7 @@ nav li:first-child {
 /* teacher end */
 /* gallery */
 .container {
+  margin-top: 30px;
   width: 100%;
   margin: auto;
   padding: 40px 0;
