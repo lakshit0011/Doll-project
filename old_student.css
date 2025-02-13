@@ -1,144 +1,138 @@
- 
 #testimonials-section {
-    height: auto;
-    
-  }
-  
-  .containerr{
-    margin: auto;
-  }
-  
-  .subcontainer{
-    width: 85%;
-    margin: auto;
-  }
-  
-  .testimonials-wrapper {
+  margin-top: 100px;
+  height: auto;
+}
+
+.containerr {
+  margin: auto;
+}
+
+.subcontainer {
+  width: 85%;
+  margin: auto;
+}
+
+.testimonials-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.slide-img {
+  height: 110px;
+  width: 110px;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid lightgray;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 5px #bbb;
+}
+
+.img-1 {
+  background-image: url(sunil_sir.JPG);
+}
+
+.img-2 {
+  background-image: url(lovejeet_l.jpg);
+}
+
+.img-3 {
+  background-image: url(navya_link.jpg);
+}
+
+.header {
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #344054;
+}
+
+.slider-wrapper {
+  width: 100%;
+}
+
+.slide {
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+  font-style: italic;
+  padding: 0 40px;
+}
+
+.slide p {
+  padding-bottom: 20px;
+}
+
+.previous,
+.next {
+  padding: 2px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  transition: 0.7s ease-in-out;
+  border: 3px solid white;
+  background-color: black;
+  box-shadow: 0 0 5px #bbb;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.previous {
+  left: 0%;
+}
+
+.next {
+  right: 0%;
+}
+
+.previous:hover,
+.next:hover {
+  border: 3px solid white;
+}
+
+#controls i {
+  color: white;
+  font-size: 1rem;
+}
+
+.tns-nav {
+  text-align: center;
+}
+
+.tns-nav button {
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 15px;
+}
+
+.tns-nav .tns-nav-active {
+  background-color: gray;
+}
+
+@media (max-width: 1600px) {
+  .container {
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    padding-top: 10px;
-    position: relative;
   }
-  
-  .slide-img {
-    height: 110px;
-    width: 110px;
-    margin: auto;
-    border-radius: 50%;
-    border: 5px solid lightgray;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 0 5px #bbb;
-  }
-  
-  .img-1{
-    background-image: url(sunil_sir.JPG);
-  }
-  
-  .img-2{
-    background-image: url(lovejeet_l.jpg);
-  }
-  
-  .img-3{
-    background-image: url(navya_link.jpg);
-  }
-  
-  .header {
-    color: white;
-    text-align: center;
-  }
-  
-  .header h1 {
-    font-size: 2.5rem;
-    color: #344054;
-  
-  }
-  
-  .slider-wrapper {
-    width: 100%;
-  }
-  
-  .slide {
-    width: 100%;
-    text-align: center;
-    color: white;
-    line-height: 1.5;
-    font-style: italic;
-    padding: 0 40px;  
-  }
-  
-  .slide p{
-    padding-bottom:20px;
-  }
-  
-  .previous,
-  .next {
-    padding: 2px;
-    width: 30px;
-    cursor: pointer;
-    border-radius: 50%;
-    outline: none;
-    transition: 0.7s ease-in-out;
-    border: 3px solid white;
-    background-color: black;
-    box-shadow: 0 0 5px #bbb;
-    position: absolute;
-    top: 50%;
-    z-index: 1;
-  }
-  
-  .previous {
-    left: 0%;
-  }
-  
-  .next {
-    right: 0%;
-  }
-  
-  .previous:hover,
-  .next:hover {
-    border: 3px solid white;
-  }
-  
-  #controls i {
-    color: white;
-    font-size: 1rem;
-  }
-  
-  .tns-nav {
-    text-align: center;
-  }
-  
-  .tns-nav button {
-    border: none;
-    padding: 8px;
-    border-radius: 50%;
-    background-color: white;
-    margin-left: 15px;
-  }
-  
-  .tns-nav .tns-nav-active {
-    background-color: gray;
-  }
-  
-  
-  @media(max-width:1600px){
-    .container{
-      width: 100%;
-    }
-  }
-  
-  
-  .student_voice_name{
-    color: #344054;
-  
-  }
-  .student_voice_content{
-    color: #344054;
-  
-  }
+}
+
+.student_voice_name {
+  color: #344054;
+}
+.student_voice_content {
+  color: #344054;
+}
