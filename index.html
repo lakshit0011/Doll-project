@@ -1,314 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>dollinternationalschool</title>
-  <link rel="stylesheet" href="doll_home.css">
-  <link rel="stylesheet" href="doll_faculties.css">
-  <link rel="stylesheet" href="doll_tab.css">
-  <link rel="stylesheet" href="doll_gallery.css">
-  <link rel="stylesheet" href="doll_mobile.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="footer.css">
-  <link rel="stylesheet" href="old_student.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  <link rel="icon" href="doll_logo__.svg" type="image/x-icon"/>
-
-</head>
-
-<body>
-
-  <nav>
-    <ul class="sidebar">
-      <li onclick=hideSidebar()><a class="bar"><i class="fa-solid fa-xmark"></i></svg></a></li>
-      <li> <a href="index.html">HOME</a></li>
-      <li> <a href="aboutus.html">ABOUT US</a></li>
-      <li> <a href="gallery.html">GALLERY</a></li>
-      <li> <a href="Contact_us.html">CONTACT US</a></li>
-      <li><a href="Information.html">INFORMATION</a></li>
-      
-    </ul>
-    <ul>
-      <img class="logo" src="doll_logo__.svg">
-      <div style="display:flex;">
-        <li class="hideOnMobile"><a href="index.html">HOME</a></li>
-        <li class="hideOnMobile"><a href="aboutus.html">ABOUT US</a></li>
-        <li class="hideOnMobile"><a href="gallery.html">GALLERY</a></li>
-        <li class="hideOnMobile"><a href="Contact_us.html">CONTACT US</a></li>
-        <li class="hideOnMobile"><a href="information.html">INFORMATION</a></li>
-      </div>
-      <li class="menu-button" style="margin-left: 5px;" onclick=showSidebar()><a class="bar" href="#"><i
-            class="fa-solid fa-bars"></i></a></li>
-    </ul>
-  </nav>
-  <!-- home page picture and text  -->
-  <div class="home">
-    <div class="home_content">
-      <h1>Welcome to Doll international school</h1>
-
-      <h2>Education is the best </h2>
-      <h2>key to success in life</h2>
-    </div>
-    <div class="home_content_2">
-      <div class="1_box_home_content_2 home_content_2_same ">
-        <i class="fa-solid fa-chalkboard-user"></i>
-        <h2>70+ Teachers</h2>
-      </div>
-      <div class="2_box_home_content_2 home_content_2_same">
-        <i class="fa-solid fa-chalkboard-user"></i>
-        <h2>800+ Student</h2>
-      </div>
-      <div class="3_box_home_content_2 home_content_2_same">
-        <i class="fa-solid fa-chalkboard-user"></i>
-        <h2>10+ Activity</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="Img_sliders">
+      <nav class="navbar">
+        <img class="logo" src="doll_logo.jpeg" alt="" />
+        <button class="menu-toggle">&#9776;</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="staff.html">Staff</a></li>
+          <li><a href="academic.html">Academic</a></li>
+          <li><a href="Examination.html">Examination</a></li>
+          <li><a href="Facilities.html">Facilities</a></li>
+          <li><a href="#Infrastructure.html">Infrastructure</a></li>
+          <li><a href="Programmes.html">Programmes</a></li>
+          <li><a href="#">T.C verification</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="online_admission_and_enquiry">
+        <a href="">Online Admission</a>
+        <a href="">Enquiry</a>
       </div>
     </div>
-  </div>
 
-
-
-
-
-
-
-  <div class="about_us">
-    <div class="aboutus_icone">
-      <i class="fa-solid fa-graduation-cap"></i>
-    </div>
-    <div class="aboutus_heading">
-      <b> We are school since 6 years </b>
-    </div>
-    <div class="aboutus_para">
-      <h4 class="about_us_para_h1">Welcome to Doll International, a distinguished institution of learning committed to
-        academic excellence and innovation. With a history spanning 6 years, we have consistently provided a world-class
-        education, empowering our students to succeed in their chosen fields. Our dedicated faculty, facilities, and
-        vibrant community create an environment where students can thrive both academically and personally.
-      </h4>
-    </div>
-    <div class="about_us_read_more_button_">
-      <a class="read_more_about_us" href="aboutus.html">Read more</a>
-    </div>
-
-
-  </div>
-
-
-  <!-- events -->
-  <div class="events">
-    <div class="events_heading">
-      <h1>Events</h1>
-      <i class="fa-solid fa-party-horn"></i>
-    </div>
-    <!-- events 3 -->
-    <div class="events_3">
-
-      <div class="event_first same_event_1_2_3 ">
-        <div class="imgg"><img src="mohoutsave_doll.png" alt=""></div>
-        <div class="event_content">
-          <h2>SWARNIM BHARAT MOHOTSAV</h2>
-          <p>Mark your calendars for the thrilling Annual Sports Day at our school on September 10, 2024 - a day of
-            fierce competition and campus camaraderie you won't want to miss!</p>
+    <!-- sunil sir and mam-->
+    <div class="container_principal_director">
+      <h2>MESSAGES</h2>
+      <div class="messages">
+        <div class="message-box">
+          <img src="sangeta_mam.JPG" alt="Anil Dhaka" />
+          <div>
+            <h3>Sangeeta gehlot</h3>
+            <p>Principal</p>
+            <p>
+              We believe that true education helps a student to discover the
+              brand ‘YOU’ that is within each individual. We Endeavour to
+              facilitate students to explore and understand what they inherently
+              have. Our world has changed but values are never going to change.
+              In the present scenario we believe and urge students to adhere to
+              core values and amplify their growth potential by taking steps in
+              the right direction.
+            </p>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+        <div class="message-box">
+          <img src="sunil_sir.JPG" alt="Saroj Chaudhary" />
+          <div>
+            <h3>Sunil gehlot</h3>
+            <p>Director</p>
+            <p>
+              At LPS, we inspire and motivate students to become adventurous and
+              brave explorers, not afraid to take risks, eager to tread on new
+              paths and make new friends. We nurture them into learners who are
+              tough in spirit but flexible in mind, into goal setters who pursue
+              their dreams and shape their ambitions with single minded purpose
+              but who achieve these in an abundantly joyful, liberal and
+              boundary less ambience.
+            </p>
+            <a href="#">Read more</a>
+          </div>
         </div>
       </div>
+    </div>
 
+    <!-- video school-->
+    <div class="video">
+      <h1><b> School video tour</b></h1>
 
-      <div class="event_secound same_event_1_2_3 ">
-        <div class="imgg"><img src="boy.jpg" alt=""></div>
-        <div class="event_content">
-          <h2>SPORTS</h2>
-          <p> lorem,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur sint quae nobis! Mollitia illum molestias
-            ipsam impedit tempora ex repudiandae et, alias nostrum quidem quo cumque voluptatem esse cum accusantium.
+      <div class="video_school">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/j9b-FGxHOb8?si=BAjTkXSauPuCDLi3"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!-- tables imp-->
+
+    <div class="container">
+      <h1 class="text-align:center;">MANDATORY PUBLIC DISCLOSURE</h1>
+      <h2>GENRAL INFORMATION</h2>
+      <div class="table-responsive">
+        <table>
+          <tr>
+            <th>SL NO.</th>
+            <th>INFORMATION</th>
+            <th>DETAILS</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>NAME OF THE SCHOOL</td>
+            <td>DIAMOND ACADEMY SSS</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>AFFILIATION NO (IF APPLICABLE)</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>SCHOOL CODE (IF APPLICABLE)</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>COMPLETE ADDRESS WITH PIN CODE</td>
+            <td>SARAN NAGAR, B ROAD, JODHPUR, JODHPUR, RAJASTHAN - 342001</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>PRINCIPAL NAME</td>
+            <td>Mrs. USHA ANAND</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>QUALIFICATION</td>
+            <td>M.A, B.ED</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>SCHOOL EMAIL ID</td>
+            <td>dsaran331@gmail.com</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>CONTACT DETAILS (LANDLINE/MOBILE)</td>
+            <td>7877344844</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>DOCUMENTS AND INFORMATION</h2>
+      <div class="table-responsive">
+        <table>
+          <tr>
+            <th>SL NO.</th>
+            <th>DOCUMENTS INFORMATION</th>
+            <th>UPLOAD DOCUMENTS</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              COPIES OF AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION OF
+              AFFILIATION, IF ANY
+            </td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION RENEWAL CERTIFICATE
+              AS APPLICABLE
+            </td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY
+              THE STATE GOVT/UT
+            </td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>
+              COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT 2009 AND ITS
+              RENEWAL IF APPLICABLE
+            </td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>
+              COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL
+              BUILDING CODE
+            </td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>
+              COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT
+              AUTHORITY
+            </td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>
+              COPY OF THE DEO CERTIFICATE SUBMITTED BY THE SCHOOL FOR
+              AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATION OR SELF
+              CERTIFICATION BY SCHOOL
+            </td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES</td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Land Certificate</td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>RESULT AND ACADEMICS</h2>
+      <div class="table-responsive">
+        <table>
+          <tr>
+            <th>SL NO.</th>
+            <th>DOCUMENTS INFORMATION</th>
+            <th>UPLOAD DOCUMENTS</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>FEE STRUCTURE OF THE SCHOOL</td>
+            <td><a href="mis.pdf">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>ANNUAL ACADEMIC CALANDER</td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>LIST OF SCHOOL MANAGEMENT COMMITTEE(SMC)</td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>LIST OF PARENTS TEACHERS ASSOCIATION(PTA)MEMBERS</td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>
+              LAST THREE-YEAR OF THE BOARD EXAMINATION AS PER APPLICABLILITY
+            </td>
+            <td><a href="#">Click Here</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>RESULT CLASS: X</h2>
+      <div class="table-responsive">
+        <table>
+          <tr>
+            <th>S.NO.</th>
+            <th>YEAR</th>
+            <th>NO. OF REGISTERED STUDENTS</th>
+            <th>NO. OF STUDENTS PASSED</th>
+            <th>PASS PERCENTAGE</th>
+            <th>REMARKS</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2024</td>
+            <td>163</td>
+            <td>159</td>
+            <td>97%</td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="container">
+      <h2>RESULT CLASS: XII</h2>
+      <div class="table-responsive">
+        <table>
+          <tr>
+            <th>S.NO.</th>
+            <th>YEAR</th>
+            <th>NO. OF REGISTERED STUDENTS</th>
+            <th>NO. OF STUDENTS PASSED</th>
+            <th>PASS PERCENTAGE</th>
+            <th>REMARKS</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2024</td>
+            <td>163</td>
+            <td>159</td>
+            <td>97%</td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>STAFF (TEACHING)</h2>
+      <div class="table-responsive">
+        <table>
+          <tr>
+            <th>SL NO.</th>
+            <th>INFORMATION</th>
+            <th>DETAILS</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>PRINCIPAL</td>
+            <td>SANGEETA GEHLOT</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>TOTAL NUMBER OF TEACHERS</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>PGT</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>TGT</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>PRT</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>TEACHERS SECTION RATIO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>DETAILS OF SPECIAL EDUCATOR</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>DETAILS OF COUNSELLOR AND WELNESS TEACHER</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>SCHOOL INFRASTRUCTURE</h2>
+      <div class="table-responsive">
+        <table>
+          <tr>
+            <th>SL NO.</th>
+            <th>INFORMATION</th>
+            <th>DETAILS</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>TOTAL CAMPUS AREA OF THE SCHOOL (IN SQUARE MTR)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>NO. AND SIZE OF THE CLASS ROOM (IN SQ FTMIR)</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              NO. AND SIZE OF LABORATORIES INCLUDING COMPUTERLABS (IN SQ MTR)
+            </td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>INTERNET FACILITY(Y/N)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>NO. OF GIRLS TOILETS</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>NO. OF BOYS TOILETS</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>
+              LINK OF YouTube VIDEO OF THE INSPECTION OF SCHOOLCOVERING THE
+              INFRASTRUCTURE OF THE SCHOOL
+            </td>
+            <td></td>
+          </tr>
+          <tr></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footerrr">
+      <div class="first_div_footer">
+        <div class="footer_logo"><img src="doll_logo.jpeg" /></div>
+        <div class="footer_content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            obcaecati quas incidunt perspiciatis minima saepe quod quam libero
+            quae autem soluta temporibus cupiditate, accusantium quibusdam eum
+            aliquam magni magnam exercitationem.
           </p>
         </div>
-      </div>
-
-
-      <div class="event_three same_event_1_2_3 ">
-        <div class="imgg"><img src="event_3.png" alt=""></div>
-        <div class="event_content">
-          <h2>MUSIC</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur sint quae nobis! Mollitia illum molestias
-            ipsam impedit tempora ex repudiandae et, alias nostrum quidem quo cumque voluptatem esse cum accusantium.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="doll_video">
-
-    <div class="video_heading">
-      <h1> <b> School video tour</b></h1>
-      <i class="fa-solid fa-image"></i>
-    </div>
-    <div class="video_school">
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/j9b-FGxHOb8?si=BAjTkXSauPuCDLi3"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-
-  </div>
-
-
-  <!-- faculties-->
-  <div class="faculties">
-    <div class="faculties_heading">
-      <h1>Faculties</h1><i class="fa-solid fa-flask"></i>
-    </div>
-
-
-    <div class=" faculties_123">
-
-
-      <div class="science faculties_s_c_a">
-        <div class="stream_heading"> Science</div>
-        <div class="faculties_s_c_a_heading">
-          <div class="streams_syllabus">
-            <h3>PHYSICS</h3>
-            <h3>CHEMISTERY</h3>
-            <h3>MATHS</h3>
-            <h3>BIOLOGY</h3>
-            <h3></h3>
-            <h3></h3>
-          </div>
-          <div class="stram_image">
-            <img src="" alt="">
-          </div>
+        <div class="footer_social_media">
+          <a href="https://www.facebook.com/DOLLINTERNATIONALSCHOOL/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/doll_international_school/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/@dollinternationalschool"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
         </div>
       </div>
 
+      <div class="secound_div_footer">
+        <div class="Contact_nav_in_footer">
+          <h1><b>Contact Us</b></h1>
 
+          <h3>
+            <i class="fa-solid fa-phone-volume"></i
+            ><a href="tel:+918963010000">8963010000</a>
+          </h3>
+          <h3>
+            <i class="fa-solid fa-phone-volume"></i>
+            <a href="tel:+919983702000">9983702000</a>
+          </h3>
+          <h3>
+            <i class="fa-solid fa-location-dot"></i>Amar Nagar Mata Ka Than
+            ,Jodhpur (Raj)
+          </h3>
+          <h3>
+            <i class="fa-solid fa-location-dot"></i>dollinternational@gmail.com
+          </h3>
+          <h3></h3>
+        </div>
 
-      <div class="science faculties_s_c_a">
-        <div class="stream_heading"> Arts</div>
-        <div class="faculties_s_c_a_heading">
-          <div class="streams_syllabus">
-            <h3>HISTORY</h3>
-            <h3>GEOGRAPHY</h3>
-            <h3>POLITICAL</h3>
-            <h3>HOME SCIENCE</h3>
-            <h3>DRAWING</h3>
+        <div class="Contact_nav_in_footer usefull_link">
+          <h1><b>Usefull link</b></h1>
+          <h3>
+            <a href="index.html"
+              >&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Home</a
+            >
+          </h3>
+          <h3>
+            <a href="aboutus.html"
+              >&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;about us</a
+            >
+          </h3>
+          <h3>
+            <a href="gallery.html"
+              >&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;gallery</a
+            >
+          </h3>
+          <h3>
+            <a href="Contact_Us.html"
+              >&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Contact Us</a
+            >
+          </h3>
+          <h3>
+            <a href="Information.html"
+              >&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+              &nbsp;information</a
+            >
+          </h3>
+        </div>
+      </div>
 
-          </div>
-          <div class="stram_image">
-            <img src="" alt="">
-          </div>
+      <div class="three_div_footer">
+        <h1><b>Find Us on Google map</b></h1>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.2698919476143!2d73.07834897487463!3d26.317758785406156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418d4469ae4c6f%3A0xe3178212b84365fc!2sDoll%20International%20School!5e0!3m2!1sen!2sin!4v1716895836759!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
-  </div>
-
-
-  <!-- teacher-->
-
-
-
-
-  <div class="teacher">
-    <h1 class="teacher_heading"> Our Guiding Lights</h1>
-
-    <div class="teacher_S_S">
-      <div class="sunil_sir">
-        <div class="teacher_img">
-          <img src="sunil_sir.JPG">
-        </div>
-        <div class="teacher_name">
-          <h1>Sunil gehlot</h1>
-          <h3>Director</h3>
-        </div>
-      </div>
-
-      <div class="sangeeta_mam">
-
-        <div class="teacher_img">
-          <img src="sangeta_mam.JPG">
-        </div>
-        <div class="teacher_name">
-          <h1>Sangeeta Gehlot</h1>
-          <h3>Principal</h3>
-        </div>
-      </div>
-    </div>
-
-
-
-  </div>
-
-  <div class="footerrr">
-
-    <div class="first_div_footer">
-      <div class="footer_logo"> <img src="doll_logo.jpeg"></div>
-      <div class="footer_content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat obcaecati quas incidunt perspiciatis minima
-          saepe quod quam libero quae autem soluta temporibus cupiditate, accusantium quibusdam eum aliquam magni magnam
-          exercitationem.</p>
-      </div>
-      <div class="footer_social_media">
-        <a href="https://www.facebook.com/DOLLINTERNATIONALSCHOOL/"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/doll_international_school/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.youtube.com/@dollinternationalschool"><i class="fa-brands fa-youtube"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-
-      </div>
-    </div>
-
-    <div class="secound_div_footer">
-      <div class="Contact_nav_in_footer">
-        <h1><b>Contact Us</b></h1>
-
-        <h3><i class="fa-solid fa-phone-volume"></i><a href="tel:+918963010000">8963010000</a></h3>
-        <h3><i class="fa-solid fa-phone-volume"></i> <a href="tel:+919983702000">9983702000</a></h3>
-        <h3><i class="fa-solid fa-location-dot"></i>Amar Nagar Mata Ka Than ,Jodhpur (Raj) </h3>
-        <h3><i class="fa-solid fa-location-dot"></i>dollinternational@gmail.com</h3>
-        <h3></h3>
-
-
-      </div>
-
-
-
-      <div class="Contact_nav_in_footer usefull_link ">
-        <h1><b>Usefull link</b></h1>
-        <h3><a href="index.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Home</a></h3>
-        <h3><a href="aboutus.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;about us</a></h3>
-        <h3><a href="gallery.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;gallery</a></h3>
-        <h3><a href="Contact_Us.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Contact Us</a></h3>
-        <h3><a href="Information.html">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;information</a></h3>
-
-
-      </div>
-    </div>
-
-    <div class="three_div_footer">
-      <h1><b>Find Us on Google map</b></h1>
-      <div class="map"><iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.2698919476143!2d73.07834897487463!3d26.317758785406156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418d4469ae4c6f%3A0xe3178212b84365fc!2sDoll%20International%20School!5e0!3m2!1sen!2sin!4v1716895836759!5m2!1sen!2sin"
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-    </div>
-
-  </div>
-  <!-- navya lovejeet id-->
-  <div class="navya_and_lovejeet_linkedin">
-    <div class="linkedin"><img src="navya_link.jpg"></img> &nbsp; &nbsp;Designed by &nbsp; &nbsp;<a href=""><u>Navya
-          gehlot</u></a></div>
-    <div class="linkedin"><img src="lovejeet_l.jpg"></img> &nbsp; &nbsp; Develop by &nbsp; &nbsp;<a href=""><u>Lovejeet
-          gehlot</u> </a></div>
-  </div>
-
-
-
-  <script src="bricks.js"> </script>
-
-</body>
-
+  </body>
+  <script src="all.js"></script>
 </html>
