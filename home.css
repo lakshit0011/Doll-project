@@ -123,6 +123,9 @@
     display: block;
   }
 }
+/* about us */
+
+/* end */
 
 /* sunil sir and mam css */
 .container_principal_director {
@@ -182,6 +185,9 @@
   .messages {
     flex-direction: row;
     justify-content: space-between;
+  }
+  .container_principal_director h2 {
+    color: #032d6c;
   }
   .message-box {
     text-align: left;
