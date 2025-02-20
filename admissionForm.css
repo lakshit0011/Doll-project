@@ -65,11 +65,17 @@ input[type="file"] {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   text-align: center;
+  width: 40%;
+  height: 30%;
 }
 
 .popup button {
+  border-radius: 20px;
+  width: 50%;
+  height: 20%;
   margin-top: 10px;
   background: #032d6c;
+  color: #ffffff;
 }
 
 /* navbar */
