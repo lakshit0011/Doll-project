@@ -133,7 +133,7 @@
   justify-content: center;
   background-color: #032d6c;
   color: wheat;
-  border: 2px solid wheat;
+  border-top: 2px solid white;
 }
 .navya_and_lovejeet_linkedin a {
   text-decoration: none;
